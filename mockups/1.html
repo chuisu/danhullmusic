@@ -10,8 +10,23 @@
     <meta charset='utf-8'/>
 </head>
 <body>
-
-
-
+    <!-- the main idea here is to have a single page design that's UNscrollable -->
+    <!-- this could go a number of ways. Something cool would be to have the main content (which is the About info by default) cycle with a click in the navbar rather than pull up a secondary page -->
+        <!-- to this effect, there could be a "more" link on each page linking to a second page -->
+        <!-- for now, I'm going to design it to more or less look like I've described above, this requires some javascript -->
+    <!-- begin main header, this could be an svg -->
+    <div id="header"><h1 id="mainTitle">DAN HULL</h1></div>
+    <!-- end header, begin nav -->
+    <div id="navDiv" class="nav">
+        <ul id="navList" class="nav">
+            <li class="nav, navItem"><a href="placeholderSecondary.html">BLOG</a></li>
+            <li class="nav, navItem"><a href="placeholderSecondary.html">CALENDAR</a></li>
+            <li class="nav, navItem"><a href="placeholderSecondary.html">PODCAST</a></li>
+            <li class="nav, navItem"><a href="placeholderSecondary.html">MEDIA</a></li>
+        </ul>
+    <!-- end nav, begin main body (which here is the default about page) -->
+    <div id="mainBody" class="mainContent">
+        <div id="about" class="mainContent"><h3>ABOUT</h3><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean at dictum orci, vel volutpat velit. Aliquam ac molestie libero, at porttitor sem. Proin hendrerit, lectus faucibus dignissim sagittis, odio ligula fringilla arcu, at consectetur lectus sapien ut dolor. Nulla ut urna ex. Donec et sem felis. Mauris aliquet, odio sit amet rutrum consectetur, velit mi tristique augue, vel accumsan neque mauris sit amet ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </br>Sed maximus, sapien et eleifend facilisis, erat sapien vestibulum dui, nec facilisis augue tellus ut nunc. Curabitur tincidunt lacinia tempus. Morbi eget nunc a augue dignissim volutpat. Donec imperdiet turpis pellentesque libero mattis iaculis. Proin sed libero ac purus euismod convallis vitae nec leo. Sed at dolor vestibulum, vulputate erat id, mattis orci. In tempus gravida vestibulum. Nam lobortis gravida ullamcorper. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed feugiat ipsum vel efficitur faucibus. Sed eget nisi elit. Nulla semper turpis id laoreet rutrum. Vestibulum at sem turpis.</p></div>
+    </div>
 </body>
 </html>
