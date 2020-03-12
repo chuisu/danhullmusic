@@ -1,0 +1,4 @@
+*.swp
+*.swo
+mockups/staging
+mockups/staging/*
