@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Fjalla+One|Indie+Flower');
+
+html {
+font-family: Raleway;
+min-height: 100vh;
+background-image: url("static/P2050625.jpeg");
+background-repeat: no-repeat;
+background-color: black;
+background-size: cover;
+}
+
+body {
+margin: 0;
+max-height: 98vh;
+color: white;
+}
+
+a, a:visited, a:hover, a {
+text-decoration: none;
+color: white;
+}
+
+div#header {
+margin: 0 20vw;
+padding: 15vh 0;
+text-align: center;
+}
+
+#mainTitle {
+font-family: Fjalla One;
+font-size: 10vh;
+letter-spacing: 1vw;
+padding: 
+}
+
+#navDiv {
+margin: 0 20vw 10vh 20vw;
+background-color: orange;
+padding: 10px 0;
+}
+
+#navDiv ul#navList {
+display: flex;
+justify-content: center;
+margin: 0;
+padding: 0;
+}
+
+#mainBody {
+margin: 0 20vw;
+}
+
+#mainBody h3 {
+text-align: center;
+}
+
+.nav {}
+
+.navItem {
+list-style-type: none;
+margin: 0 1vw;
+}
+
+.mainContent {}
