@@ -10,8 +10,19 @@
     <meta charset='utf-8'/>
 </head>
 <body>
+    <!-- DISCLAIMER: I'm learning that this should use display: grid, so replace flexbox in the comments here with grid -->
+    <!-- this mockup is the most interesting to me from a style perspective: rather than be vertically designed, it will be horizontal -->
+    <!-- the main title will be split into two flexboxes (first and last name) so as to be vertically stacked, and the main content will appear next to it rather than below, also in flexboxes -->
+    <!-- the nav will be at the far right end of the screen, perhaps using a mouseover to show -->
+    <div id="flexbox"> <!-- this div will contain all the content in the flexbox -->
+        <div id="flex1-DAN" class="flex"><h1>DAN</h1></div>
+        <div id="flex2-HULL" class="flex"><h1>HULL</h1></div>
+        <div id="flex3-about" class="flex"><h3>ABOUT</h3><p></p></div>
+        <div id="flex4-blog" class="flex"><h3>BLOG</h3><p></p></div>
+        <div id="flex5-nav" class="flex"></div>
+        <div id="flex6-empty" class="flex"></div>
 
 
-
+    </div>
 </body>
 </html>
