@@ -4,7 +4,7 @@ html {
 font-family: Raleway;
 min-height: 99vh;
 max-height: 100vh;
-background-image: url("static/P2050625.jpeg");
+background-image: url("static/P2050625.jpg");
 background-repeat: no-repeat;
 background-color: black;
 background-size: cover;
@@ -40,8 +40,8 @@ text-align: right;
 }
 
 .gridItem p {
-font-size: 16pt;
-line-height: 24pt;
+font-size: 14pt;
+line-height: 20pt;
 }
 
 #gridItem1-DAN {
@@ -110,4 +110,5 @@ padding: 0;
 .navItem {
 list-style-type: none;
 place-self: center;
+font-weight: bold;
 }
