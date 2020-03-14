@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Fjalla+One|Indie+Flower');
+
+html {
+font-family: Raleway;
+min-height: 99vh;
+max-height: 100vh;
+background-image: url("static/P2050625.jpeg");
+background-repeat: no-repeat;
+background-color: black;
+background-size: cover;
+}
+
+body {
+margin: 0;
+max-height: 98vh;
+color: white;
+}
+
+a, a:visited, a:hover, a {
+text-decoration: none;
+color: white;
+}
+
+#grid {
+display: grid;
+grid-template-rows: 50vh 50vh;
+grid-template-columns: 10vw auto 5vw;
+}
+
+.gridItem {}
+
+#gridItem1-DAN {}
+
+#gridItem2-HULL {}
+
+#gridItem3-about {}
+
+#gridItem4-blog {}
+
+#gridItem5-empty {}
+
+#gridItem6-empty {}
+
+
