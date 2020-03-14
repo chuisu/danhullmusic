@@ -23,8 +23,10 @@ color: white;
 
 #grid {
 display: grid;
-grid-template-rows: 50vh 50vh;
+grid-template-rows: auto auto;
 grid-template-columns: 10vw auto 5vw;
+align-items: end;
+margin: 10vh 0 10vh 0;
 }
 
 .gridItem {}
@@ -32,7 +34,11 @@ grid-template-columns: 10vw auto 5vw;
 #gridItem1-DAN {
 }
 
-#gridItem2-HULL {}
+
+#gridItem2-HULL {
+place-self: start;
+text-align: right;
+}
 
 #gridItem3-about {}
 
