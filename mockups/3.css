@@ -22,11 +22,12 @@ color: white;
 }
 
 #grid {
+margin: 10vh 0;
+max-height: 100vh;
 display: grid;
-grid-template-rows: auto auto;
+grid-template-rows: 40vh 40vh;
 grid-template-columns: 20vw auto 10vw;
 align-items: end;
-margin: 10vh 0 10vh 0;
 }
 
 .gridItem {}
@@ -34,8 +35,13 @@ margin: 10vh 0 10vh 0;
 .gridItem h1{
 font-family: Fjalla One;
 font-size: 10vh;
-margin: 0 20px 0 0;
+margin: 0 3vw 0 0;
 text-align: right;
+}
+
+.gridItem p {
+font-size: 16pt;
+line-height: 24pt;
 }
 
 #gridItem1-DAN {
@@ -47,10 +53,12 @@ place-self: start end;
 text-align: right;
 }
 
-#gridItem3-about {}
+#gridItem3-about {
+max-height: 40vh;
+}
 
 #gridItem4-blog {
-max-height: 50vh;
+max-height: 40vh;
 overflow: auto;
 padding: 0 20px 0 0;
 }
@@ -93,7 +101,7 @@ background-color: orange;
 
 #navDiv ul#navList {
 display: grid;
-grid-template-rows: auto auto auto auto;
+grid-template-rows: 20vh 20vh 20vh 20vh;
 grid-template-columns: auto;
 margin: 0;
 padding: 0;
@@ -101,4 +109,5 @@ padding: 0;
 
 .navItem {
 list-style-type: none;
+place-self: center;
 }
