@@ -29,13 +29,40 @@ grid-template-columns: 10vw auto 5vw;
 
 .gridItem {}
 
-#gridItem1-DAN {}
+#gridItem1-DAN {
+}
 
 #gridItem2-HULL {}
 
 #gridItem3-about {}
 
-#gridItem4-blog {}
+#gridItem4-blog {
+max-height: 50vh;
+overflow: auto;
+padding: 0 20px 0 0;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+  margin-left: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(200,200,200,0.2); 
+  border-radius: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(200,200,200,1);
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
 
 #gridItem5-empty {}
 
