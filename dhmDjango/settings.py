@@ -25,7 +25,12 @@ SECRET_KEY = '*3-v7wt4q77&b^kcx74%bh=4fb08i0#s+@rn=d=2c(h-gms5dw'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    'localhost',
+    'danhullmusic.com',
+    'danhullmusic.pythonanywhere.com',
+]
 
 
 # Application definition
@@ -37,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'main',
 ]
 
 MIDDLEWARE = [
