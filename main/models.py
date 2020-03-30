@@ -20,7 +20,7 @@ class Media(models.Model):
 
 class BackgroundImage(models.Model):
     title = 'Background image'
-    file = models.FileField(upload_to='static/uploads/backgroundimagemodel/', help_text="This image will appear as the main image behind the site's front page")
+    image = models.FileField(upload_to='static/uploads/backgroundimagemodel/', help_text="This image will appear as the main image behind the site's front page")
 
 class Contact(models.Model):
     name = models.CharField(max_length=256)
