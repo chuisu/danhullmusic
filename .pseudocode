@@ -7,4 +7,14 @@ backgroundImage
 contact
 (form) emailForm
 
+Read through the fucking docs. Don't follow along yet, just READ.
+
+Each of these models needs an entry
+
+The media model needs to support images, video, and audio
+
+Calendar model, views, calendar.html should be imported from sjsDjango (provided it jives with this version)
+Templates (index and secondary) need to be created
+Each page needs a views entry
+URLs need to work (regex?)
 
